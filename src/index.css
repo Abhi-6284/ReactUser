@@ -1,0 +1,26 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to right,
+      rgba(255, 0, 0, 0.1) 0%,
+      rgba(255, 127, 0, 0.1) 25%,
+      rgba(255, 255, 0, 0.1) 50%,
+      rgba(0, 255, 0, 0.1) 75%,
+      rgba(0, 0, 255, 0.1) 100%), url('https://images.pexels.com/photos/776656/pexels-photo-776656.jpeg');
+  ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

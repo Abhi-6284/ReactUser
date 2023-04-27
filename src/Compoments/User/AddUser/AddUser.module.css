@@ -1,0 +1,47 @@
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.formLabel{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.formContant{
+    font-size: 1.2pc;
+    padding: 2px 6px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    transition: border-bottom 500ms linear;
+    background: inherit
+}
+
+.formContant:focus{
+    border-bottom: 1px solid #15ff00;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.error{
+  color: red;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.invalid{
+  color: red;
+}
